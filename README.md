@@ -2,6 +2,8 @@
 
 To get started, here is a link to the original [gp_extras package](https://github.com/jmetzen/gp_extras) which should be installed along with [scikit-learn (sklearn)](https://github.com/scikit-learn/scikit-learn). 
 
+Examples of potential outputs from the GP code are reproduced below: 
+
 Analysis of the pedestal on Alcator C-Mod:
 
 ![Output sample](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/2D-GPR-1160718013.gif)
