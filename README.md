@@ -10,7 +10,7 @@ Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ 
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n%2Bdndx.png)
 
-The adaptive length scales can also be further analyzed across the spatiotemporal domain. While identical kernels are initialized, depending upon the data being provided for training, significantly different length scales can be learned across the input domain. 
+Adaptive length scales can also be further analyzed across the spatiotemporal grid. While identical kernels are initialized, depending upon the observed training data, significantly different length scales can be learned across the input domain. 
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_2d_n.png)
 
