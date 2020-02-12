@@ -10,8 +10,9 @@ Analysis of the pedestal on Alcator C-Mod:
 
 (Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ < 0.95 towards the core breaking monotonicity. Good measurements with preprocessing will correspondingly help provide good fits, and the GP will help quantify what is already captured. Additionally, it is worth noting that running the same fitting routine on identical data sets can yield different results due to the stochastic optimization process employed.)
 
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n.png)
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-dndx.png)
+![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n%2Bdndx.png)
+
+
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/H-mode-GPR.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/H-mode-GPR_der.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/T_profiles.png)
