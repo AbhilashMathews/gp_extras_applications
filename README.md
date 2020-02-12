@@ -26,7 +26,7 @@ Adaptive length scales can also be further analyzed across the spatiotemporal gr
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_2D_n%2BT.png)
 
-As described in the original [gp_extras package](https://github.com/jmetzen/gp_extras), the adaptive length scales and heteroscedastic kernel enable improved fitting in the above cases, and this is more simply exemplified in the following 1-dimensional scenarios:
+As described in the original [gp_extras package](https://github.com/jmetzen/gp_extras), the adaptive length scales and heteroscedastic noise model enable improved fitting in the above cases, and this is visually exemplified in the following 1-dimensional scenarios:
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_data.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_scales.png)
 
