@@ -19,8 +19,8 @@ Analysis of the pedestal on Alcator C-Mod:
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_2d_n.png)
 
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_n.png){:height="50%" width="50%"}
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_t.png){:height="50%" width="50%"}
+![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_n.png =600x600)
+![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_t.png =600x600)
 
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/n_profiles.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/T_profiles.png)
