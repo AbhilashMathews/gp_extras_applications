@@ -10,8 +10,6 @@ Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ 
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n%2Bdndx.png)
 
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/heteroscedastic.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/homoscedastic.png)
-
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_data.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_scales.png)
 
@@ -20,3 +18,7 @@ Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_2D_n%2BT.png)
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/n_profiles.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/T_profiles.png)
+
+As described in the original [gp_extras package](https://github.com/jmetzen/gp_extras), the adaptive length scales and heteroscedastic kernel enable improved fitting in the above cases, and this is more simply exemplified in the following 1-dimensional scenarios:
+
+![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/heteroscedastic.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/homoscedastic.png)
