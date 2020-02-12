@@ -4,6 +4,15 @@
 Created on Fri Sep 27 15:56:39 2019
 
 @author: mathewsa
+
+This script is used for plotting the length scales learned by the GP across the 
+2D (i.e. radial and temporal) domain specified by the user. This script is to
+be run only after first running and saving the GP after it has been trained
+upon the experimental data. Note that certain trained GPs may have trouble during
+training to find good estimates of length scales across the domain, nevertheless
+the fits to the original data may still be mostly all right, but checking for 
+'good times' which are stored in the array 'inputs_t_array_good' should be 
+performed as described in the script 'GP-obtain-2D-profiles.py'.
 """
 
 import sys
