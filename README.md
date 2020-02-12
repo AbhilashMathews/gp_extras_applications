@@ -12,9 +12,6 @@ Analysis of the pedestal on Alcator C-Mod:
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n%2Bdndx.png)
 
-
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/H-mode-GPR.png)
-![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/H-mode-GPR_der.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/T_profiles.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/heteroscedastic.png)
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/homoscedastic.png)
