@@ -21,3 +21,5 @@ As described in the original [gp_extras package](https://github.com/jmetzen/gp_e
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_data.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/lls_1d_scales.png)
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/heteroscedastic.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/homoscedastic.png)
+
+If you have any research questions or comments, please feel free to contact mathewsa@mit.edu
