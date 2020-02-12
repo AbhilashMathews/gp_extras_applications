@@ -1,10 +1,8 @@
 # Multidimensional adaptive Gaussian process regression
 
-To get started, here is a link to the original [gp_extras package](https://github.com/jmetzen/gp_extras) which should be installed along with [scikit-learn (sklearn)](https://github.com/scikit-learn/scikit-learn). 
+To get started, here is a link to the original [gp_extras package](https://github.com/jmetzen/gp_extras) which should be installed along with [scikit-learn (sklearn)](https://github.com/scikit-learn/scikit-learn). These packages and codes are developed with Python3 compatibility. 
 
-Examples of potential outputs from the GP code are reproduced below: 
-
-Analysis of the pedestal on Alcator C-Mod:
+The multidimensional adaptive Gaussian process code is applied on experimental data with a few examples of potential outputs displayed below. Corresponding codes necessary for the creation of similar plots can be found [here](https://github.com/AbhilashMathews/gp_extras_applications/tree/master/codes).
 
 ![Output sample](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR-1160718013.gif)
 
