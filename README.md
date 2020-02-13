@@ -34,4 +34,4 @@ As described in the original [gp_extras package](https://github.com/jmetzen/gp_e
 
 If you have any research questions or comments, please feel free to contact mathewsa@mit.edu
 
-This work is supported by US DoE award DE-SC0014264 and the Alcator C-Mod team. 
+This work is supported by the U.S. Department of Energy (DOE) Office of Science Fusion Energy Sciences program under contract DE-SC0014264 and the Alcator C-Mod team. 
