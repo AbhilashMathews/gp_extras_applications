@@ -4,13 +4,13 @@ To get started, here is a link to the original [gp_extras package](https://githu
 
     git clone git@github.com:scikit-learn/scikit-learn.git
     cd sklearn
-    sudo python setup.py install
+    python setup.py install
 
 and
 
     git clone git@github.com:jmetzen/gp_extras.git
     cd gp_extras
-    [sudo] python setup.py install
+    python setup.py install
 
 The multidimensional adaptive Gaussian process code is applied on experimental data with a few examples of potential outputs displayed below. Corresponding codes necessary for the creation of similar plots can be found [here](https://github.com/AbhilashMathews/gp_extras_applications/tree/master/codes). The primary capability of this tool is the fitting of noisy multidimensional data as visualized below for both electron density and temperature measurements. This can yield time-varying plasma profiles and corresponding gradients with uncertainties.
 
