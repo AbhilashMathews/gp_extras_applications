@@ -33,3 +33,5 @@ As described in the original [gp_extras package](https://github.com/jmetzen/gp_e
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/heteroscedastic.png) ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/homoscedastic.png)
 
 If you have any research questions or comments, please feel free to contact mathewsa@mit.edu
+
+This work is supported by US DoE award DE-SC0014264 and the Alcator C-Mod team. 
