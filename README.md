@@ -1,6 +1,6 @@
 # Multidimensional adaptive Gaussian process regression
 
-To get started, here is a link to the original [gp_extras package](https://github.com/jmetzen/gp_extras) which should be installed along with [scikit-learn (sklearn)](https://github.com/scikit-learn/scikit-learn). These packages and listed scripts are developed with Python 3 compatibility, and installation is as simple as
+To get started, here is a link to the original [gp_extras package](https://github.com/jmetzen/gp_extras) which should be installed along with [scikit-learn (sklearn)](https://github.com/scikit-learn/scikit-learn). These packages and scripts in this repository are developed with Python 3 compatibility, and installation is as simple as
 
     git clone git@github.com:scikit-learn/scikit-learn.git
     cd sklearn
