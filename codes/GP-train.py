@@ -26,6 +26,7 @@ import timeit #simply used for testing time performance
    
 lower_l = 0.05 #lower length scale as specified by the user
 upper_l = 5.0 #upper length scale as specified by the user
+#l_samples is an additional variable that can be modified, but kept constant at 10 for simplicity
 n_max_iter = 20 #number of training iterations
 N_clusters = 20 #number of cluster centers for the k-means algorithm
 file_path = '.../trainedGPs/saved_GP_1091016033/' #source of experimental data which is loaded below
