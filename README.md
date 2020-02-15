@@ -16,7 +16,7 @@ The multidimensional adaptive Gaussian process code is applied on experimental d
 
 ![Output sample](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D_GPR-1160718013.gif)
 
-Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ < 0.95 towards the core breaking monotonicity. Good measurements with preprocessing will correspondingly help provide good fits, and the GP will help quantify what is already captured. Additionally, it is worth noting that running the same fitting routine on identical data sets can yield different results due to the stochastic optimization process employed.
+Note for users: GP regression cannot fix the observed data, e.g. outliers at ψ < 0.95 towards the core breaking monotonicity. Good measurements with preprocessing will correspondingly help provide good fits, and the GP will help quantify what is already captured. Additionally, it is worth noting that running the same fitting routine on identical data sets can yield different results due to the stochastic optimization process employed. The code is currently configured to simply keep repeating until training is successful in case the optimization has not converged. Primary inputs to modify to help with stability during training include `N_clusters`,     lower_l`, and `upper_l`.
 
 ![alt tag](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D-GPR_n%2Bdndx.png)
 
