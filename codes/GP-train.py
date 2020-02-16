@@ -26,7 +26,7 @@ import timeit #simply used for testing time performance
    
 lower_l = 0.05 #lower length scale as specified by the user
 upper_l = 5.0 #upper length scale as specified by the user
-#l_samples is an additional variable that can be modified, but kept constant at 10 for simplicity
+l_samples_input = 20 #parameter for sampling length scales
 n_max_iter = 20 #number of training iterations
 N_clusters = 20 #number of cluster centers for the k-means algorithm
 file_path = '.../trainedGPs/saved_GP_1091016033/' #source of experimental data which is loaded below
@@ -52,7 +52,7 @@ def de_optimizer(obj_func, initial_theta, bounds):
     return res.x, obj_func(res.x, eval_gradient=False)
 
 kernel_lls = C(1.0, (1e-10, 1000)) \
-  * LocalLengthScalesKernel.construct(X_n, l_L=lower_l, l_U=upper_l, l_samples=10)\
+  * LocalLengthScalesKernel.construct(X_n, l_L=lower_l, l_U=upper_l, l_samples=l_samples_input)\
       + HeteroscedasticKernel.construct(prototypes, 1e-1, (1e-5, 50.0),
               gamma=1.0, gamma_bounds="fixed")
  
@@ -76,7 +76,7 @@ while finish_training_n == 0:
 
 prototypes = KMeans(n_clusters=N_clusters).fit(X_T).cluster_centers_ 
 kernel_lls_T = C(1.0, (1e-10, 1000)) \
-  * LocalLengthScalesKernel.construct(X_T, l_L=lower_l, l_U=upper_l, l_samples=10)\
+  * LocalLengthScalesKernel.construct(X_T, l_L=lower_l, l_U=upper_l, l_samples=l_samples_input)\
       + HeteroscedasticKernel.construct(prototypes, 1e-1, (1e-5, 50.0),
               gamma=1.0, gamma_bounds="fixed")
 
