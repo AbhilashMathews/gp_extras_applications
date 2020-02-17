@@ -12,6 +12,11 @@ standard normal distributions. This script is to be run only after first running
 and saving the GP after it has been trained upon the experimental data. This 
 script displays the electron density and temperature (and their corresponding 
 prediction intervals) with single sample realizations plotted in blue. 
+
+Note: optimization with constraints during training of the overall GP can be implemented 
+by following the steps outlined in gptools based upon the class 'Constraint' imposing
+a residual that simply penalizes the loss function if the sought constraint is not satisfied:
+https://github.com/markchil/gptools/blob/master/gptools/gaussian_process.py
 """
 
 import sys
