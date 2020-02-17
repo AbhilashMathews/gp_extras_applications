@@ -13,10 +13,11 @@ and saving the GP after it has been trained upon the experimental data. This
 script displays the electron density and temperature (and their corresponding 
 prediction intervals) with single sample realizations plotted in blue. 
 
-Note: optimization with constraints during training of the overall GP can be implemented 
-by following the steps outlined in gptools based upon the class 'Constraint' imposing
-a residual that simply penalizes the loss function if the sought constraint is not satisfied
-(e.g. mean or first derivatives must be greater than 0 across the domain):
+Note: in addition to modifying sampling distributions, optimization with
+constraints during training of the overall GP can be implemented by following 
+the steps outlined in gptools based upon the class 'Constraint' imposing a 
+residual that additionally penalizes the loss function if the sought arbitrary 
+constraint is not satisfied (e.g. mean or first derivatives must be greater than 0):
 https://github.com/markchil/gptools/blob/master/gptools/gaussian_process.py
 """
 
