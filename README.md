@@ -12,7 +12,7 @@ and
     cd gp_extras
     python setup.py install
 
-The multidimensional adaptive Gaussian process code is applied on experimental data with a few examples of potential outputs displayed below. Corresponding codes necessary for the creation of similar plots can be found [here](https://github.com/AbhilashMathews/gp_extras_applications/tree/master/codes). One example capability of this tool is the fitting of noisy multidimensional data as visualized below for both electron density and temperature measurements. This can yield time-varying plasma profiles and corresponding gradients with uncertainties.
+The multidimensional adaptive Gaussian process code is applied on experimental data with a few examples of potential outputs displayed below. Corresponding codes necessary for the creation of similar plots can be found [here](https://github.com/AbhilashMathews/gp_extras_applications/tree/master/codes). One example capability of this tool is the fitting of noisy multidimensional data as visualized below for both electron density and temperature measurements. This can yield time-varying plasma profiles and associated gradients with uncertainties.
 
 ![Output sample](https://github.com/AbhilashMathews/gp_extras_applications/blob/master/outputs/2D_GPR-1160718013.gif)
 
