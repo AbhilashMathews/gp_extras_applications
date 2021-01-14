@@ -34,4 +34,8 @@ As described in the original [gp_extras package](https://github.com/jmetzen/gp_e
 
 If you have any research questions or comments, please feel free to contact mathewsa@mit.edu
 
+Note: This program is distributed in the hope that it will be useful, but without any warranty nor even the implied warranty of merchantibility or fitness for a particular service. Therefore, testing the code and ensuring it performs as you expect is important.
+
+If you find this code useful, please remember to cite it: A. Mathews and J. W. Hughes, Quantifying experimental edge plasma evolution via multidimensional adaptive gaussian process regression (2020), in preparation.
+
 This work is supported by the U.S. Department of Energy (DOE) Office of Science Fusion Energy Sciences program under contract DE-SC0014264 and the Alcator C-Mod team. 
