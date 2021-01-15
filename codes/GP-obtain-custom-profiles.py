@@ -22,7 +22,7 @@ https://github.com/markchil/gptools/blob/master/gptools/gaussian_process.py
 """
 
 import sys
-sys.path.append('C:/Users/mathewsa/') #provides path to gp_extras #provides path to gp_extras
+sys.path.append('C:/Users/mathewsa/') #provides path to gp_extras
 import pickle
 import numpy as np
 from matplotlib import pyplot as plt
