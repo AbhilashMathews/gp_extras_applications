@@ -5,12 +5,12 @@ Created on Fri Sep 27 15:56:39 2019
 
 @author: mathewsa
 
-This script is used for plotting electron density and temperature on the 
-2D (i.e. radial and temporal) domain specified by the user. This script is to
+This script is used for plotting electron density and temperature on the 2D 
+(i.e. radial and temporal) domain specified by the user. This script is to
 be run only after first running and saving the GP after it has been trained
-upon the experimental data. This script will also save the electron density
-and temperature (and their corresponding uncertainties on the prediction 
-interval) and the 2D domain itself for further quantitative analysis.
+upon the experimental data (i.e. after running `GP-train.py`). This script will 
+also save the electron density and temperature (and their corresponding uncertainties 
+on the prediction  interval) and the 2D domain itself for quantitative analysis.
 This code can be simply extended to higher dimensional cases, too.
 
 (Note: all times with uncoverged points are removed/can be flagged and the 
@@ -40,7 +40,7 @@ time_spacing = 0.01 #seconds; this is the grid spacing you specify
 t_min = 0.4 #in seconds, lower limit for x-axis for 2d array/plot
 t_max = 1.6 #in seconds, upper limit for x-axis for 2d array/plot  
 n_sampling = 1000 #provides higher sampling count for profile statistics
-file_path = '.../trainedGPs/saved_GP_1091016033/' #path to saved GP contents
+file_path = '.../trainedGPs/saved_GP_1091016033/' #path to saved GP contents, i.e. newpath_save from GP-train.py
 #file_path is where the gp and its variables have been saved
 
 # --------------------------------------------------------------
