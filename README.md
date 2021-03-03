@@ -47,4 +47,4 @@ If you find this code useful, please remember to cite it: https://arxiv.org/abs/
       primaryClass={physics.plasm-ph}
       }
 
-This work is supported by the U.S. Department of Energy (DOE) Office of Science Fusion Energy Sciences program under contract DE-SC0014264 and the Alcator C-Mod team. 
+This work is supported by the U.S. Department of Energy (DOE) Office of Science under the Fusion Energy Sciences program under contract DESC0014264 and the Natural Sciences and Engineering Research Council of Canada (NSERC) by the doctoral postgraduate scholarship (PGS D) and the Alcator C-Mod team. 
