@@ -39,12 +39,19 @@ Note: This program is distributed in the hope that it will be useful, but withou
 If you find this code useful, please remember to cite it: https://arxiv.org/abs/2103.01305
 
 @misc{mathews2021quantifying,
+
       title={Quantifying experimental edge plasma evolution via multidimensional adaptive Gaussian process regression}, 
+      
       author={Abhilash Mathews and Jerry Hughes},
+      
       year={2021},
+      
       eprint={2103.01305},
+      
       archivePrefix={arXiv},
+      
       primaryClass={physics.plasm-ph}
+      
 }
 
 This work is supported by the U.S. Department of Energy (DOE) Office of Science Fusion Energy Sciences program under contract DE-SC0014264 and the Alcator C-Mod team. 
